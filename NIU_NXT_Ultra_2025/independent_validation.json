@@ -1,0 +1,60 @@
+{
+  "asset": "NIU_NXT_Ultra_2025/NIU_NXT_2025_Refined.blend",
+  "frame": 1,
+  "wheelbase_m": 1.2445622682571411,
+  "wheelbase_basis": "Existing official-image calibration; not a published dimension",
+  "seat_contact_samples_m": [
+    {
+      "x": -0.32,
+      "z": 0.7408002614974976,
+      "surface": "Reference shaped saddle"
+    },
+    {
+      "x": -0.28,
+      "z": 0.737712025642395,
+      "surface": "Reference shaped saddle"
+    },
+    {
+      "x": -0.24,
+      "z": 0.7382292747497559,
+      "surface": "Reference shaped saddle"
+    },
+    {
+      "x": -0.2,
+      "z": 0.7399643659591675,
+      "surface": "Reference shaped saddle"
+    },
+    {
+      "x": -0.18,
+      "z": 0.740639328956604,
+      "surface": "Reference shaped saddle"
+    }
+  ],
+  "bounds_min_m": [
+    -0.9327454566955566,
+    -0.3819979429244995,
+    -0.00012620832421816885
+  ],
+  "bounds_max_m": [
+    0.8433949947357178,
+    0.3819979429244995,
+    1.2289488315582275
+  ],
+  "mesh_parts": 447,
+  "evaluated_faces": 304374,
+  "all_vertices_finite": true,
+  "all_parts_parented": true,
+  "principal_surface_edges": {
+    "Continuous apron and lower sill": {
+      "longest_edge_m": 0.1514430774741178,
+      "faces": 4168
+    },
+    "Continuous textured inner legshield": {
+      "longest_edge_m": 0.03709873791184018,
+      "faces": 2682
+    }
+  },
+  "limits": "This check validates geometry integrity and retained landmarks; visual fidelity is assessed in separate renders.",
+  "glb_roundtrip_max_bound_error_m": 1.1920928955078125e-07,
+  "glb_bytes": 12323192
+}

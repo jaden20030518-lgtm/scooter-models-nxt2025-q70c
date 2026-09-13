@@ -1,0 +1,287 @@
+[
+  {
+    "file": ".gitattributes",
+    "bytes": 107,
+    "sha256": "a36e6c044d9ab2eba193981fd3445589b899e01b3f7e256d1a56c8ef425dda2b"
+  },
+  {
+    "file": ".gitignore",
+    "bytes": 75,
+    "sha256": "b467b87cace093585b510d24da158510bd21c1dee54a56e73fce1333fa6d92d7"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_NXT_2025_Refined.blend",
+    "bytes": 4190351,
+    "sha256": "a5df7782cc476069b7dfca8bef3baedff326bf0da9b365b2f0f1a915fa9055da"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_NXT_2025_Refined.glb",
+    "bytes": 12323192,
+    "sha256": "1f349592cd7d62d576262f62fed4b1989e06e17b5c45f01581df427748fcf8fb"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_Product_Studio.blend",
+    "bytes": 4193319,
+    "sha256": "562ea93112a53b34906cb8cb334fc08e6ded20a166256c8529b2afa75b06e742"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_baseline_hero_1200.png",
+    "bytes": 1003496,
+    "sha256": "8d1eab34bb402fbcd9feee03bd2d5dab8eb835a050e0cc4ab057a59bf554e115"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_baseline_optics_1200.png",
+    "bytes": 1145062,
+    "sha256": "08b243d4f1719da07493e9cc4d7b269bba9f643aeccdf2096615a54c1aaf944a"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_baseline_side_1200.png",
+    "bytes": 1001080,
+    "sha256": "b65a318677b4b101d1e891d270fec234614fbda6eeaf9dd103a92c179b6c8934"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_comparison_hero.png",
+    "bytes": 1339199,
+    "sha256": "bcd89dad3a7f1ff8627bb54272c7e75d253048d7780e61904848d6cf22339eee"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_comparison_optics.png",
+    "bytes": 1880464,
+    "sha256": "f50f4bca26244a214ef1f40a78e54c39169ce27c9d3cf7fa114a99e504d6e227"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_comparison_side.png",
+    "bytes": 1180077,
+    "sha256": "8e38f897dc3ef086db0bc2830282a8a2b2ece506b82159b9a93c965b5e101055"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_refined_bucket_1200.png",
+    "bytes": 1154252,
+    "sha256": "9d6ae815dc8a333f36823dc5c109abec009da0be7a05857ff20ae8afa5799a94"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_refined_cockpit_1200.png",
+    "bytes": 1069523,
+    "sha256": "c6f47b7ec78e5be2606cffb42ac9dde7da7515afc717be9dbdc1f56c3363b326"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_refined_hero_1200.png",
+    "bytes": 1019879,
+    "sha256": "424716c32e660126384563e3e52c5bb78dad9d7262ac60e39dad827f87ed691f"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_refined_optics_1200.png",
+    "bytes": 1179801,
+    "sha256": "9d94c64cb12b56c77f13bae9b576a134f096150f6b71b8080217ff943d8e8441"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_refined_side_1200.png",
+    "bytes": 1005138,
+    "sha256": "529d7a4a826c565b911f12ccf94802d4100bc7814a1b5db2db3b49ed7587668e"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/NIU_refined_validation.json",
+    "bytes": 1793,
+    "sha256": "dc945cb059d2f609c4e9bb0bdc057a266de2d4622f032dfbc6c024c0c6055a23"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/README_实拍细化版.md",
+    "bytes": 4424,
+    "sha256": "1c5ea18ce6e4459999744fe0e56071e7a2ae345de042c7c0302f7031f0e3a9f0"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/build_niu_refined.py",
+    "bytes": 17473,
+    "sha256": "6d6e114c050f938086b097ad417aa50d4e53f11db0a866cedadd210edae29487"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/delivery_manifest.json",
+    "bytes": 3107,
+    "sha256": "c4563893d8445eec1649384dcb189cf2a4e34606264964e19ad2e929fac092c2"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/independent_validation.json",
+    "bytes": 1545,
+    "sha256": "2afdbde721e5f332bf762b2f5590ae8c0807e73a570ad113af26a73e45d94b05"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/production_details.py",
+    "bytes": 21666,
+    "sha256": "71bce3f2e9c00fed96b8cb4de4a82a686527b18c41a30d9d57c9aa0977b31c1e"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/refine_assemblies.py",
+    "bytes": 20212,
+    "sha256": "1ea81073b6ff374355ac27c75a29df10c1444d9fcae110864300487ddc4772ba"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/render_previews.py",
+    "bytes": 4584,
+    "sha256": "770c62e82f70872534c46804935f4000c6f74ad11a07b022d9b4831b1c6fa3f9"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/verify_refined.py",
+    "bytes": 3649,
+    "sha256": "50f1a5d7ff66911ba4a37587c69a24419c312ddae072a08e9b47e76abfe67f69"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/展示图/niu_detail.png",
+    "bytes": 4386214,
+    "sha256": "716954a024e8454ee558548a707c36b97365caac355d80d99c5691f7844a52b0"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/展示图/niu_hero.png",
+    "bytes": 11077905,
+    "sha256": "6c545e25cb8800247aacdff1dec02dec0105a0d735b46815feb6caeb31a117c6"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/展示图/niu_rear.png",
+    "bytes": 3941104,
+    "sha256": "444a4c71b517bc04d0dbe80f8e0136f5f6af2dcc049712bc4f885901720181cc"
+  },
+  {
+    "file": "NIU_NXT_Ultra_2025/展示图/niu_side.png",
+    "bytes": 3954869,
+    "sha256": "1a1e5cd0ea01f80cef59606d5c31acdb43bbfd0fbc65b0c6f4488c6fb4010e7d"
+  },
+  {
+    "file": "Ninebot_Q70C/Ninebot_Q70C_Refined.blend",
+    "bytes": 2800424,
+    "sha256": "3e38adf731582ce638caf43febba3ce2ed354a76b42ea52f4c8486208795702b"
+  },
+  {
+    "file": "Ninebot_Q70C/Ninebot_Q70C_Refined.glb",
+    "bytes": 23065340,
+    "sha256": "14970b0e1142b721e8aa9b01711fd9fbe024517a93d606a7850bf5dbc9b4c2f5"
+  },
+  {
+    "file": "Ninebot_Q70C/Q70C_Product_Studio.blend",
+    "bytes": 2799300,
+    "sha256": "273e1c763966cbb7a5c94d7c299d854aa00e30da42126a35740c702027da573b"
+  },
+  {
+    "file": "Ninebot_Q70C/Q70C_Refined_Cockpit_Preview.png",
+    "bytes": 1716813,
+    "sha256": "cc79edab17aca3404f4804e66e69bce27edc4f0799c2d8c111f6e99ec1f06a55"
+  },
+  {
+    "file": "Ninebot_Q70C/Q70C_Refined_Hero_Preview.png",
+    "bytes": 1510152,
+    "sha256": "939bb0104df10542a61dde07a52f13d7f59a599d7374f352356ecee1ba8186a6"
+  },
+  {
+    "file": "Ninebot_Q70C/Q70C_Refined_OpenSeat_Preview.png",
+    "bytes": 1892876,
+    "sha256": "6a35da335fd3ac25fc0200b0c5251c96bc746ca28f746611be4efde754a1cd0d"
+  },
+  {
+    "file": "Ninebot_Q70C/Q70C_Refined_Rear_Preview.png",
+    "bytes": 1753941,
+    "sha256": "8b8ccb6a29f09bfb90a742c865dd057f3e83ef2721d49e2e20466a614ff7558b"
+  },
+  {
+    "file": "Ninebot_Q70C/Q70C_Refined_Side_Preview.png",
+    "bytes": 1184459,
+    "sha256": "55bbb226bbf051de0b12aeaf5daeb0e0a8d9437cff5162e3815b63bed263f15a"
+  },
+  {
+    "file": "Ninebot_Q70C/Q70C_refined_validation.json",
+    "bytes": 512,
+    "sha256": "7dc8a44025d2e2d6633af769068b10d3f7855585904bde7ea000f4de413743bd"
+  },
+  {
+    "file": "Ninebot_Q70C/README_实拍重建与打开坐垫.md",
+    "bytes": 2557,
+    "sha256": "860c2acbf9f5ffca304bfd5b95bbafd0706f7a99e59f979e55678ec5cb4f88df"
+  },
+  {
+    "file": "Ninebot_Q70C/build_q70_refined.py",
+    "bytes": 62954,
+    "sha256": "6e34d5ca9de26442b42e1d631f967a7a13f62704be5ef5dd867a1bef58df8fa1"
+  },
+  {
+    "file": "Ninebot_Q70C/independent_validation.json",
+    "bytes": 920,
+    "sha256": "2b3b863dc0e3bc20b6554c7ecce8d58fb2ab706baead13792fe649f68f9af595"
+  },
+  {
+    "file": "Ninebot_Q70C/native_refined_validation.json",
+    "bytes": 668,
+    "sha256": "b59b5ee713e54bd250c82101e1024151845fd931e3e866e3077852224a52225a"
+  },
+  {
+    "file": "Ninebot_Q70C/preview_visual_audit.json",
+    "bytes": 2047,
+    "sha256": "1f518bae708e231775e01e178fa113946e738c608d06981a7e20d9d3713c0b03"
+  },
+  {
+    "file": "Ninebot_Q70C/surface_shading_fix_validation.json",
+    "bytes": 1281,
+    "sha256": "21dba3cb3580f0dadaec14f98b2d16456d99e9d3635cb819e8e9f94ff9ff5193"
+  },
+  {
+    "file": "Ninebot_Q70C/verify_native.py",
+    "bytes": 2498,
+    "sha256": "f5cd6aefff2b2af60ad06c62e46edd6852557e1ca530df3e5e2352b685412c95"
+  },
+  {
+    "file": "Ninebot_Q70C/展示图/q70_detail.png",
+    "bytes": 3933330,
+    "sha256": "49c3d10a9698fe11b1f2df110eddfebe3eec4727f250c223c0a0f6308d7c64cc"
+  },
+  {
+    "file": "Ninebot_Q70C/展示图/q70_hero.png",
+    "bytes": 10943944,
+    "sha256": "13476ae5756a0caf68aa8f7b0b11986c53b47411bfcbbda90dd6a816b47567aa"
+  },
+  {
+    "file": "Ninebot_Q70C/展示图/q70_rear.png",
+    "bytes": 4011443,
+    "sha256": "d012bb8b29351dba0ec6031ccf1461ef4544cdc46a21f8f3f163524a8256fd20"
+  },
+  {
+    "file": "Ninebot_Q70C/展示图/q70_seat.png",
+    "bytes": 4102659,
+    "sha256": "f39d70f9deaa97f8c4c189105cbfa7e032910eaeda31be44611fa86a739299f3"
+  },
+  {
+    "file": "Ninebot_Q70C/展示图/q70_side.png",
+    "bytes": 3989921,
+    "sha256": "d8b23e9af2c0c3bb667a8121fb32fcf37570a7587d4faefd668d66d8e9f19af5"
+  },
+  {
+    "file": "README.md",
+    "bytes": 3126,
+    "sha256": "30bf68c60a906f7931c35e7043fbe5342fd66aab7aadee3622d9957f81afeec7"
+  },
+  {
+    "file": "README_使用与变化.md",
+    "bytes": 4102,
+    "sha256": "b31262d1188a2f51e8f417eb527a46b24fe5538c9d69f8e258f410b944e1d0a2"
+  },
+  {
+    "file": "niu_前后对比.jpg",
+    "bytes": 264478,
+    "sha256": "0f3041dce3d0363dfb13b754bcb1c4bd8fb9a9f2e27195c23409874d97659173"
+  },
+  {
+    "file": "q70_前后对比.jpg",
+    "bytes": 253690,
+    "sha256": "3625054de5e3904e2fc8a4cc09179044f33a5d3b02f70dfcaaaee4c37c145bdc"
+  },
+  {
+    "file": "tools/render_views.py",
+    "bytes": 5410,
+    "sha256": "419f93d6e0c23b9b7b8ab850b6d5bc53c0d5a21efac99d80272ca6483ab72385"
+  },
+  {
+    "file": "tools/verify_and_export.py",
+    "bytes": 5566,
+    "sha256": "f90236718d390d26b8b10bfd25824884a65b2cc6ab8c3e447bf7b5dc4c6ced1e"
+  },
+  {
+    "file": "两车优化预览.jpg",
+    "bytes": 262461,
+    "sha256": "b67f8b9554f61f1b4722d85605428570865511e2d7dca03af5d8e6fd28661521"
+  }
+]

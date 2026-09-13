@@ -1,0 +1,37 @@
+{
+  "root_cause": "Boolean cut cap at z=.335 inherited smooth shading on one 316-vertex planar n-gon, producing fan-like interpolated highlights",
+  "changed_faces": [
+    {
+      "face_index": 8666,
+      "vertices": 316,
+      "z_range_m": 0.0,
+      "smooth_before": true,
+      "smooth_after": false
+    }
+  ],
+  "all_mesh_geometry_topology_and_world_matrices_unchanged": true,
+  "mesh_objects_compared": 271,
+  "reference_reproduction_pixels_4096x3072": [
+    [
+      2580,
+      2170
+    ],
+    [
+      2490,
+      2170
+    ],
+    [
+      2630,
+      2170
+    ]
+  ],
+  "render_review_width": 1400,
+  "render_review_samples": 32,
+  "review_result": "Planar top cap now has uninterrupted lighting; star-shaped triangular highlights no longer visible",
+  "native_blend_sha256": "3e38adf731582ce638caf43febba3ce2ed354a76b42ea52f4c8486208795702b",
+  "source_sha256": "6e34d5ca9de26442b42e1d631f967a7a13f62704be5ef5dd867a1bef58df8fa1",
+  "native_constraints_rerun": "native_refined_validation.json",
+  "intermediate_review_status": "1400px/32-sample local diagnostic image is not distributed",
+  "final_presentation": "展示图/q70_hero.png",
+  "final_export_status": "GLB regenerated from the corrected native file and reimported successfully; see independent_validation.json"
+}

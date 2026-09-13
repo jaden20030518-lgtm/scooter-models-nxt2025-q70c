@@ -1,0 +1,36 @@
+{
+  "asset": "Ninebot_Q70C/Ninebot_Q70C_Refined.blend",
+  "frame": 1,
+  "wheelbase_m": 1.1100000000291468,
+  "wheelbase_basis": "Official 1110 mm",
+  "seat_contact_samples_m": [
+    {
+      "x": -0.355,
+      "z": 0.7299998998641968,
+      "surface": "TaupeSaddle"
+    }
+  ],
+  "bounds_min_m": [
+    -0.8120831251144409,
+    -0.3799999952316284,
+    9.530343231745064e-05
+  ],
+  "bounds_max_m": [
+    0.7401812672615051,
+    0.3799999952316284,
+    1.2050000429153442
+  ],
+  "mesh_parts": 361,
+  "evaluated_faces": 567035,
+  "all_vertices_finite": true,
+  "all_parts_parented": true,
+  "principal_surface_edges": {
+    "ContinuousDeepYellowTub": {
+      "longest_edge_m": 0.03193356608030889,
+      "faces": 8667
+    }
+  },
+  "limits": "This check validates geometry integrity and retained landmarks; visual fidelity is assessed in separate renders.",
+  "glb_roundtrip_max_bound_error_m": 0.0,
+  "glb_bytes": 23065340
+}

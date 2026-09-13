@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.blend[1-9]
+*.zip
+renders/
+work/
+.cache/

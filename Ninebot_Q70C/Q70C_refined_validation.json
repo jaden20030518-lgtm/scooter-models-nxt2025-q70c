@@ -1,0 +1,12 @@
+{
+  "wheelbase_m": 1.1100000000291468,
+  "seat_contact_x_m": -0.355,
+  "seat_contact_z_m": 0.7299998998641968,
+  "seat_open_frame": 45,
+  "seat_closed_frame": 1,
+  "seat_open_angle_degrees": 78,
+  "independent_bucket": true,
+  "reference_video": "7633436353291877233",
+  "reference_rear": "6a2eaebf0000000022029594 photos 1-2",
+  "limits": "Reconstructed visualization; unmeasured transverse sections and hidden hardware are estimated. Preview uses up to 3 CPU threads, 24 samples, optional per-process Metal."
+}

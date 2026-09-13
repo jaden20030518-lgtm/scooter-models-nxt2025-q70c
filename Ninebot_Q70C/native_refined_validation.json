@@ -1,0 +1,25 @@
+{
+  "wheelbase_m": 1.1100000000291468,
+  "seat_contact_height_m": 0.7299998998641968,
+  "root_hierarchy_verified": true,
+  "all_finite_vertices": true,
+  "geometric_parts": 361,
+  "closed_bounds_m": [
+    1.552264392375946,
+    0.7599999904632568,
+    1.2049047394830268
+  ],
+  "pose_raycast_checks": [
+    {
+      "frame": 1,
+      "first_hit": "TaupeSaddle",
+      "height_m": 0.7304984331130981
+    },
+    {
+      "frame": 45,
+      "first_hit": "IndependentDeepSeatBucket",
+      "height_m": 0.43138742446899414
+    }
+  ],
+  "limits": "Reconstructed visual model, not measured factory CAD. Ray checks prove two reference poses, not full collision certification."
+}

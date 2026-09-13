@@ -1,0 +1,65 @@
+{
+  "previews": [
+    {
+      "file": "Q70C_Refined_Cockpit_Preview.png",
+      "size": [
+        1200,
+        1200
+      ],
+      "sha256": "cc79edab17aca3404f4804e66e69bce27edc4f0799c2d8c111f6e99ec1f06a55"
+    },
+    {
+      "file": "Q70C_Refined_Hero_Preview.png",
+      "size": [
+        1200,
+        1200
+      ],
+      "sha256": "939bb0104df10542a61dde07a52f13d7f59a599d7374f352356ecee1ba8186a6"
+    },
+    {
+      "file": "Q70C_Refined_OpenSeat_Preview.png",
+      "size": [
+        1200,
+        1200
+      ],
+      "sha256": "6a35da335fd3ac25fc0200b0c5251c96bc746ca28f746611be4efde754a1cd0d"
+    },
+    {
+      "file": "Q70C_Refined_Rear_Preview.png",
+      "size": [
+        1200,
+        1200
+      ],
+      "sha256": "8b8ccb6a29f09bfb90a742c865dd057f3e83ef2721d49e2e20466a614ff7558b"
+    },
+    {
+      "file": "Q70C_Refined_Side_Preview.png",
+      "size": [
+        1200,
+        840
+      ],
+      "sha256": "55bbb226bbf051de0b12aeaf5daeb0e0a8d9437cff5162e3815b63bed263f15a"
+    }
+  ],
+  "viewed_cameras": [
+    "Q70C_HERO",
+    "Q70C_SIDE",
+    "Q70C_OPEN_SEAT",
+    "Q70C_DRIVER",
+    "Q70C_REAR_REFINED"
+  ],
+  "source_sha256": "f225512fe537310f7ec067990b837efd0f0262847b82824a20bd7860e2f14ff5",
+  "blend_sha256_before_root_final_render": "b2b73b83855c6b7d9930963484f12ec0a6c69ba632891fcd7ca7c8a3450b9e63",
+  "visual_checks": [
+    "Closed seat has continuous yellow pedestal and narrow dark seam",
+    "Open seat has continuous black bucket rim with no yellow crossings",
+    "No exposed fork tube ends in driver compartment",
+    "Complete red rounded rear ring and black center",
+    "Cream rear covers meet body while retaining yellow tail field",
+    "No duplicated floating rail-support blocks"
+  ],
+  "limits": "1200px low-sample inspection; final large-format and GLB review handled by root.",
+  "record_status": "Historical preview snapshot before the final planar-surface shading correction",
+  "current_version_manifest": "../文件清单与校验.json",
+  "final_export_validation": "independent_validation.json"
+}

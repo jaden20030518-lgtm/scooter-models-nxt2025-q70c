@@ -1,0 +1,100 @@
+{
+  "revision": "V6 frozen",
+  "files": [
+    {
+      "name": "NIU_NXT_2025_Refined.blend",
+      "bytes": 4190351,
+      "sha256": "a5df7782cc476069b7dfca8bef3baedff326bf0da9b365b2f0f1a915fa9055da"
+    },
+    {
+      "name": "NIU_baseline_hero_1200.png",
+      "bytes": 1003496,
+      "sha256": "8d1eab34bb402fbcd9feee03bd2d5dab8eb835a050e0cc4ab057a59bf554e115"
+    },
+    {
+      "name": "NIU_baseline_optics_1200.png",
+      "bytes": 1145062,
+      "sha256": "08b243d4f1719da07493e9cc4d7b269bba9f643aeccdf2096615a54c1aaf944a"
+    },
+    {
+      "name": "NIU_baseline_side_1200.png",
+      "bytes": 1001080,
+      "sha256": "b65a318677b4b101d1e891d270fec234614fbda6eeaf9dd103a92c179b6c8934"
+    },
+    {
+      "name": "NIU_comparison_hero.png",
+      "bytes": 1339199,
+      "sha256": "bcd89dad3a7f1ff8627bb54272c7e75d253048d7780e61904848d6cf22339eee"
+    },
+    {
+      "name": "NIU_comparison_optics.png",
+      "bytes": 1880464,
+      "sha256": "f50f4bca26244a214ef1f40a78e54c39169ce27c9d3cf7fa114a99e504d6e227"
+    },
+    {
+      "name": "NIU_comparison_side.png",
+      "bytes": 1180077,
+      "sha256": "8e38f897dc3ef086db0bc2830282a8a2b2ece506b82159b9a93c965b5e101055"
+    },
+    {
+      "name": "NIU_refined_bucket_1200.png",
+      "bytes": 1154252,
+      "sha256": "9d6ae815dc8a333f36823dc5c109abec009da0be7a05857ff20ae8afa5799a94"
+    },
+    {
+      "name": "NIU_refined_cockpit_1200.png",
+      "bytes": 1069523,
+      "sha256": "c6f47b7ec78e5be2606cffb42ac9dde7da7515afc717be9dbdc1f56c3363b326"
+    },
+    {
+      "name": "NIU_refined_hero_1200.png",
+      "bytes": 1019879,
+      "sha256": "424716c32e660126384563e3e52c5bb78dad9d7262ac60e39dad827f87ed691f"
+    },
+    {
+      "name": "NIU_refined_optics_1200.png",
+      "bytes": 1179801,
+      "sha256": "9d94c64cb12b56c77f13bae9b576a134f096150f6b71b8080217ff943d8e8441"
+    },
+    {
+      "name": "NIU_refined_side_1200.png",
+      "bytes": 1005138,
+      "sha256": "529d7a4a826c565b911f12ccf94802d4100bc7814a1b5db2db3b49ed7587668e"
+    },
+    {
+      "name": "NIU_refined_validation.json",
+      "bytes": 1793,
+      "sha256": "dc945cb059d2f609c4e9bb0bdc057a266de2d4622f032dfbc6c024c0c6055a23"
+    },
+    {
+      "name": "README_实拍细化版.md",
+      "bytes": 4287,
+      "sha256": "2bb10f3e3e068279685c9c2744393933052862bc6224cdeb4e00a5e3808a720e"
+    },
+    {
+      "name": "build_niu_refined.py",
+      "bytes": 17473,
+      "sha256": "6d6e114c050f938086b097ad417aa50d4e53f11db0a866cedadd210edae29487"
+    },
+    {
+      "name": "production_details.py",
+      "bytes": 21666,
+      "sha256": "71bce3f2e9c00fed96b8cb4de4a82a686527b18c41a30d9d57c9aa0977b31c1e"
+    },
+    {
+      "name": "refine_assemblies.py",
+      "bytes": 20212,
+      "sha256": "1ea81073b6ff374355ac27c75a29df10c1444d9fcae110864300487ddc4772ba"
+    },
+    {
+      "name": "render_previews.py",
+      "bytes": 4584,
+      "sha256": "770c62e82f70872534c46804935f4000c6f74ad11a07b022d9b4831b1c6fa3f9"
+    },
+    {
+      "name": "verify_refined.py",
+      "bytes": 3649,
+      "sha256": "50f1a5d7ff66911ba4a37587c69a24419c312ddae072a08e9b47e76abfe67f69"
+    }
+  ]
+}

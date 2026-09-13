@@ -1,0 +1,90 @@
+{
+  "wheelbase_measured_from_axle_objects_m": 1.2445622682571411,
+  "wheelbase_baseline_m": 1.2445622895622896,
+  "units": "METRIC",
+  "axis_front": "+X",
+  "vehicle_objects": 448,
+  "three_optics": [
+    "NXT main optical lens 1",
+    "NXT main optical lens 2",
+    "NXT main optical lens 3"
+  ],
+  "obsolete_single_projector_present": false,
+  "temporary_cutters": [],
+  "nonfinite_mesh_vertices": 0,
+  "footwell_passage_rays": [
+    {
+      "x": -0.025,
+      "z": 0.43,
+      "clear": true,
+      "hit_object": null
+    },
+    {
+      "x": -0.025,
+      "z": 0.53,
+      "clear": true,
+      "hit_object": null
+    },
+    {
+      "x": 0.04,
+      "z": 0.43,
+      "clear": true,
+      "hit_object": null
+    },
+    {
+      "x": 0.04,
+      "z": 0.53,
+      "clear": true,
+      "hit_object": null
+    },
+    {
+      "x": 0.115,
+      "z": 0.43,
+      "clear": true,
+      "hit_object": null
+    },
+    {
+      "x": 0.115,
+      "z": 0.53,
+      "clear": true,
+      "hit_object": null
+    }
+  ],
+  "geometry_notes": [
+    {
+      "part": "NXT independent short-seat storage bucket",
+      "present": true
+    },
+    {
+      "part": "NXT removable smoked front window",
+      "present": true
+    },
+    {
+      "part": "NXT three-optic horizontal carrier",
+      "present": true
+    },
+    {
+      "part": "NXT front open-window brake rotor",
+      "present": true
+    },
+    {
+      "part": "NXT front independent ABS encoder",
+      "present": true
+    },
+    {
+      "part": "NXT short-seat front hinge leaf",
+      "present": true
+    }
+  ],
+  "mesh_base_vertices": 163715,
+  "mesh_base_faces": 152573,
+  "apron_seam_pixel_ray": {
+    "pixel": [
+      1014,
+      299
+    ],
+    "hit_object": "NXT continuous apron inner side return.001",
+    "sealed": true
+  },
+  "checks_pass": true
+}
