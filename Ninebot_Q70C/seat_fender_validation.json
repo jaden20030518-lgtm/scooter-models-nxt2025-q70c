@@ -1,0 +1,33 @@
+{
+  "asset": "Ninebot_Q70C_Refined.blend",
+  "exterior_black_piping_absent": true,
+  "black_structural_pan_inside_upholstery_bounds": true,
+  "fender_outward_top_normal": [
+    0.023160740733146667,
+    -0.02390086092054844,
+    0.9994460344314575
+  ],
+  "fender_front_overhang_in_tyre_radii": 0.8987794034335707,
+  "fender_tyre_triangle_overlap_count": 0,
+  "minimum_sampled_tyre_clearance_m": 0.04525783285498619,
+  "painted_side_skirt_at_reflectors": [
+    {
+      "side": -1,
+      "surface_xyz_m": [
+        0.4729999899864197,
+        -0.13187748193740845,
+        0.32100000977516174
+      ]
+    },
+    {
+      "side": 1,
+      "surface_xyz_m": [
+        0.4729999899864197,
+        0.13187801837921143,
+        0.32100000977516174
+      ]
+    }
+  ],
+  "checks_pass": true,
+  "scope": "Static model regressions and image-derived shape constraints; not a factory measurement or suspension-travel certification."
+}

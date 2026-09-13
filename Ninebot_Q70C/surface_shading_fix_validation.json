@@ -33,5 +33,6 @@
   "native_constraints_rerun": "native_refined_validation.json",
   "intermediate_review_status": "1400px/32-sample local diagnostic image is not distributed",
   "final_presentation": "展示图/q70_hero.png",
-  "final_export_status": "GLB regenerated from the corrected native file and reimported successfully; see independent_validation.json"
+  "final_export_status": "GLB regenerated from the corrected native file and reimported successfully; see independent_validation.json",
+  "record_status": "Historical v0.1.0 shading-only repair; hashes describe that repair stage. Current model hashes are in preview_visual_audit.json and the root manifest."
 }

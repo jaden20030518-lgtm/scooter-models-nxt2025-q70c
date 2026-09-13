@@ -4,13 +4,15 @@
 
 ![两车优化预览](两车优化预览.jpg)
 
+[v0.1.1 更新](CHANGELOG.md)：修正 Q70C 坐垫外缘与前挡泥板。
+
 ## 下载
 
-[完整成果包 v0.1.0](https://github.com/jaden20030518-lgtm/scooter-models-nxt2025-q70c/releases/download/v0.1.0/scooter-models-v0.1.0.zip) · [Release 页面](https://github.com/jaden20030518-lgtm/scooter-models-nxt2025-q70c/releases/tag/v0.1.0)
+[完整成果包 v0.1.1](https://github.com/jaden20030518-lgtm/scooter-models-nxt2025-q70c/releases/download/v0.1.1/scooter-models-v0.1.1.zip) · [Release 页面](https://github.com/jaden20030518-lgtm/scooter-models-nxt2025-q70c/releases/tag/v0.1.1)
 
 - **NXT**：[Blender 模型](NIU_NXT_Ultra_2025/NIU_NXT_2025_Refined.blend) · [GLB](NIU_NXT_Ultra_2025/NIU_NXT_2025_Refined.glb) · [4K 主图](NIU_NXT_Ultra_2025/展示图/niu_hero.png)
 - **Q70C**：[Blender 模型](Ninebot_Q70C/Ninebot_Q70C_Refined.blend) · [GLB](Ninebot_Q70C/Ninebot_Q70C_Refined.glb) · [4K 主图](Ninebot_Q70C/展示图/q70_hero.png)
-- [NXT 前后对比](niu_前后对比.jpg) · [Q70C 前后对比](q70_前后对比.jpg)
+- [NXT 前后对比](niu_前后对比.jpg) · [Q70C 前后对比](q70_前后对比.jpg) · [本次局部修正](Ninebot_Q70C/Q70C_座垫与挡泥板修正.jpg)
 
 模型、源码和展示图可直接在仓库下载；完整 ZIP 放在 Release 中。
 

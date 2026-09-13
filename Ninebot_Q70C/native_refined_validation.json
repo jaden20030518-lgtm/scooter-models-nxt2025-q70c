@@ -3,9 +3,9 @@
   "seat_contact_height_m": 0.7299998998641968,
   "root_hierarchy_verified": true,
   "all_finite_vertices": true,
-  "geometric_parts": 361,
+  "geometric_parts": 360,
   "closed_bounds_m": [
-    1.552264392375946,
+    1.5449877977371216,
     0.7599999904632568,
     1.2049047394830268
   ],

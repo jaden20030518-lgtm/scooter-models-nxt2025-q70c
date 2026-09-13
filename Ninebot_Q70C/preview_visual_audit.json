@@ -1,65 +1,55 @@
 {
+  "version": "v0.1.1",
   "previews": [
-    {
-      "file": "Q70C_Refined_Cockpit_Preview.png",
-      "size": [
-        1200,
-        1200
-      ],
-      "sha256": "cc79edab17aca3404f4804e66e69bce27edc4f0799c2d8c111f6e99ec1f06a55"
-    },
     {
       "file": "Q70C_Refined_Hero_Preview.png",
       "size": [
         1200,
-        1200
+        900
       ],
-      "sha256": "939bb0104df10542a61dde07a52f13d7f59a599d7374f352356ecee1ba8186a6"
-    },
-    {
-      "file": "Q70C_Refined_OpenSeat_Preview.png",
-      "size": [
-        1200,
-        1200
-      ],
-      "sha256": "6a35da335fd3ac25fc0200b0c5251c96bc746ca28f746611be4efde754a1cd0d"
-    },
-    {
-      "file": "Q70C_Refined_Rear_Preview.png",
-      "size": [
-        1200,
-        1200
-      ],
-      "sha256": "8b8ccb6a29f09bfb90a742c865dd057f3e83ef2721d49e2e20466a614ff7558b"
+      "sha256": "7a4e2f2e257b548417c4efe56eaafab4893251b450b8d186a586b32f6d458951"
     },
     {
       "file": "Q70C_Refined_Side_Preview.png",
       "size": [
         1200,
-        840
+        900
       ],
-      "sha256": "55bbb226bbf051de0b12aeaf5daeb0e0a8d9437cff5162e3815b63bed263f15a"
+      "sha256": "22f08b01d83a8f130112557cf1c7b2904356a439bc66c7d7384ece5099b2a2d0"
+    },
+    {
+      "file": "Q70C_Refined_Rear_Preview.png",
+      "size": [
+        1200,
+        900
+      ],
+      "sha256": "bcb5eba89b3b0c624f9fa408b3cb96e8338f1b63e169e60c78324c1df8753370"
+    },
+    {
+      "file": "Q70C_Refined_Cockpit_Preview.png",
+      "size": [
+        1200,
+        900
+      ],
+      "sha256": "df31612f17dafbc840b8a5c2e785747e2f3f42c6224534c4570358a86a21836d"
+    },
+    {
+      "file": "Q70C_Refined_OpenSeat_Preview.png",
+      "size": [
+        1200,
+        900
+      ],
+      "sha256": "5e2289512c22eea753a64d6c78a89ceb71d5f31395028584c9824923c7189dff"
     }
   ],
-  "viewed_cameras": [
-    "Q70C_HERO",
-    "Q70C_SIDE",
-    "Q70C_OPEN_SEAT",
-    "Q70C_DRIVER",
-    "Q70C_REAR_REFINED"
+  "source_sha256": "c9a0e84e79cb7bc1029b6345db96677733a26f456b4bb0be1433d698a10e51c2",
+  "native_blend_sha256": "19e3465410903ab7ae030c9bb8262f8b918a872bd1e0a2ae16fbb979e7d83207",
+  "checks": [
+    "No exterior black seat welt",
+    "Black pan recessed inside upholstery",
+    "Deep mudguard side skirt carries reflector",
+    "Static tyre clearance",
+    "Hinged seat remains functional"
   ],
-  "source_sha256": "f225512fe537310f7ec067990b837efd0f0262847b82824a20bd7860e2f14ff5",
-  "blend_sha256_before_root_final_render": "b2b73b83855c6b7d9930963484f12ec0a6c69ba632891fcd7ca7c8a3450b9e63",
-  "visual_checks": [
-    "Closed seat has continuous yellow pedestal and narrow dark seam",
-    "Open seat has continuous black bucket rim with no yellow crossings",
-    "No exposed fork tube ends in driver compartment",
-    "Complete red rounded rear ring and black center",
-    "Cream rear covers meet body while retaining yellow tail field",
-    "No duplicated floating rail-support blocks"
-  ],
-  "limits": "1200px low-sample inspection; final large-format and GLB review handled by root.",
-  "record_status": "Historical preview snapshot before the final planar-surface shading correction",
-  "current_version_manifest": "../文件清单与校验.json",
-  "final_export_validation": "independent_validation.json"
+  "geometry_validation": "seat_fender_validation.json"
 }

@@ -668,8 +668,10 @@ def saddle_under(x,y=0):
     return p.z if p is not None else interp(x,[(-.67,.685),(-.55,.668),(-.4,.642),(-.28,.616),(-.2,.590),(-.13,.625)])
 underoutline=[(-.125,0),(-.143,.060),(-.199,.118),(-.286,.141),(-.421,.160),(-.557,.155),(-.631,.108),(-.662,.041),(-.67,0),(-.662,-.041),(-.631,-.108),(-.557,-.155),(-.421,-.160),(-.286,-.141),(-.199,-.118),(-.143,-.060)]
 outerplan=[tuple(v) for v in catmull(underoutline,8)];nn=len(outerplan)
-outertop=[(xx,yy,saddle_under(xx,yy)-.008) for xx,yy in outerplan]
-innertop=[(-.4+(xx+.4)*.95,yy*.925,zz-.0015) for xx,yy,zz in outertop]
+# The brown upholstery meets the yellow body without an exposed black welt.
+# Raise only the exterior shoulder; keep the hidden bucket lip at its old height.
+outertop=[(xx,yy,saddle_under(xx,yy)-.0015) for xx,yy in outerplan]
+innertop=[(-.4+(xx+.4)*.95,yy*.925,zz-.0080) for xx,yy,zz in outertop]
 # Remove only the legacy upper rear volume. Its lower sill and lower body stay intact.
 cut=cube('TemporaryRemoveLegacyUpperRear',(-.475,0,.725),(.405,.38,.390),None,.003)
 bpy.context.view_layer.objects.active=cut
@@ -691,7 +693,9 @@ assert len(cap_faces)==1,cap_faces
 # Smooth outside loft, widening toward the old sill; no face crosses the mouth.
 vs=[];fs=[];levels=12
 for k in range(levels):
-    t=k/(levels-1)
+    # A close support ring keeps subdivision from pulling the yellow shoulder
+    # away from the upholstered edge and exposing the recessed black bucket.
+    t=([j/10 for j in range(10)]+[.985,1.0])[k]
     for xx,yy,zz in outertop:
         rel=(xx+.4)/.27
         bx=xx-.091*min(1,abs(rel))**2 if xx<-.4 else xx-.012*min(1,abs(rel))**2
@@ -743,16 +747,17 @@ underplan=[tuple(v) for v in catmull(underoutline,6)]
 def pan_z(x):return saddle_under(x,0)-.003
 vs=[];fs=[];nr=14;nb=len(underplan)
 for i in range(nr):
-    r=1-i/nr
+    r=.94*(1-i/nr)
     for xx,yy in underplan:
-        x=-.4+(xx+.4)*r;y=yy*r;vs.append((x,y,saddle_under(x,y)-.004))
+        x=-.4+(xx+.4)*r;y=yy*r;vs.append((x,y,saddle_under(x,y)-.001))
 for i in range(nr-1):
     for j in range(nb):
         k=i*nb+j;q=i*nb+(j+1)%nb;fs.append((k,q,q+nb,k+nb))
 ci=len(vs);vs.append((-.4,0,pan_z(-.4)-.004))
 for j in range(nb):fs.append(((nr-1)*nb+j,(nr-1)*nb+(j+1)%nb,ci))
-pan=mesh('SaddleBlackStructuralPan',vs,fs,BUCKET,1,.005);seat_parts.append(pan)
-pts=[(xx,yy,saddle_under(xx,yy)-.007) for xx,yy in underplan];pts.append(pts[0]);seat_parts.append(tube('SaddlePeripheralRubberSeal',pts,.0045,SEAT_RUBBER,3))
+pan=mesh('SaddleBlackStructuralPan',vs,fs,BUCKET,1,.003);seat_parts.append(pan)
+pan['construction']='Black inner seat pan recessed inside the brown upholstered perimeter; no exterior black piping'
+seat['exterior_edge']='Continuous brown upholstery; source 02_body_side_close_009.450s, no black trim'
 for xx,w in [(-.59,.125),(-.53,.146),(-.47,.15),(-.41,.15),(-.35,.141),(-.29,.132),(-.23,.110),(-.18,.079)]:
     seat_parts.append(tube('SaddleUndersideCrossWeb',[(xx,-w,saddle_under(xx,-w)-.013),(xx,0,pan_z(xx)-.018),(xx,w,saddle_under(xx,w)-.013)],.0036,BUCKET,2))
 for yy in [-.103,-.052,0,.052,.103]:
@@ -791,22 +796,63 @@ for sg in [-1,1]:
     cube('ObservedFoldedSideStep',(-.301,sg*.239,.304),(.063,.009,.017),BLACK,.012)
     cube('FoldedSideStepInset',(-.301,sg*.249,.306),(.052,.002,.009),DARK,.007)
 
-# Smooth elliptical front fender, broad transverse crown without a roof-like sharp ridge.
+# Deep asymmetric front mudguard: the real side skirts carry the reflectors.
+# Profile dimensions are image-derived, not manufacturer measurements.
 remove_matching(['IvoryFrontFender'])
-vs=[];fs=[];nx=64;ny=32
+vs=[];fs=[];nx=72;ny=40
+# x, crown z, side hem z, half-width. The rear end disappears into the apron
+# wheel well; the front end is a short rounded bill, not a symmetric arch.
+fender_stations=[
+    (.330,.245,.225,.090),(.350,.293,.228,.113),
+    (.390,.367,.235,.130),(.435,.416,.249,.138),
+    (.480,.442,.265,.140),(.525,.447,.278,.139),
+    (.565,.440,.288,.136),(.605,.418,.296,.132),
+    (.650,.389,.301,.128),(.690,.361,.300,.121),
+    (.715,.345,.304,.108),
+]
 for i in range(nx+1):
-    a=math.radians(28+130*i/nx)
+    x=.330+(.715-.330)*i/nx
+    crown=interp(x,[(s[0],s[1]) for s in fender_stations])
+    hem=interp(x,[(s[0],s[2]) for s in fender_stations])
+    width=interp(x,[(s[0],s[3]) for s in fender_stations])
     for j in range(ny+1):
         u=-1+2*j/ny
-        xx=.538+.229*math.cos(a);yy=.119*u
-        zz=.194+.267*math.sin(a)-.058*u*u
-        # Rounded lips taper slightly at the two open ends rather than forming wing tips.
-        xx-=.012*u*u*math.cos(a)
+        theta=u*math.pi/2
+        xx=x-.014*u*u*max(0,(x-.65)/.065)
+        yy=width*math.sin(theta)
+        zz=hem+(crown-hem)*max(0,math.cos(theta))
         vs.append((xx,yy,zz))
 for i in range(nx):
     for j in range(ny):
-        k=i*(ny+1)+j;fs.append((k,k+1,k+ny+2,k+ny+1))
-mesh('IvoryRoundedFrontFender',vs,fs,IVORY,1,.008)
+        k=i*(ny+1)+j;fs.append((k,k+ny+1,k+ny+2,k+1))
+fender_ob=mesh('IvoryRoundedFrontFender',vs,fs,IVORY,1,.004)
+fender_ob['source']='Official Q70C yellow render; real video 6.500s and 11.300s: deep side skirts and reflector on painted surface'
+fender_ob['profile_basis']='Asymmetric crown and side-hem stations; transverse curved shell; image-derived dimensions'
+# Attach both reflectors to the revised white side shell instead of leaving
+# the original mounts suspended beside the fork.
+bpy.context.view_layer.update();fe=fender_ob.evaluated_get(bpy.context.evaluated_depsgraph_get())
+reflector_surface=[]
+for sg in [-1,1]:
+    hit,p,n,fi=fe.ray_cast(Vector((.473,sg*.5,.321)),Vector((0,-sg,0)))
+    assert hit,'The reflector position must have a white mudguard surface behind it'
+    if n.y*sg<0:n=-n
+    reflector_surface.append((sg,p.copy(),n.normalized()))
+remove_matching(['ReflectorBlackMount','AmberLensInsert'])
+for sg,p,n in reflector_surface:
+    zaxis=Vector((-.30,0,.954));zaxis=(zaxis-n*zaxis.dot(n)).normalized()
+    xaxis=n.cross(zaxis).normalized()
+    for prefix,hx,hy,rad,offset,depth,mat in [
+        ('ReflectorBlackMount',.011,.030,.009,.001,.003,BLACK),
+        ('AmberLensInsert',.0078,.025,.0075,.0035,.0015,AMBER),
+    ]:
+        outline=roundrect(0,0,hx,hy,rad,10);nnr=len(outline)
+        rv=[p+xaxis*u+zaxis*v+n*(offset+d) for d in [0,depth] for u,v in outline]
+        rf=[tuple(range(nnr)),tuple(range(2*nnr-1,nnr-1,-1))]
+        for j in range(nnr):rf.append((j,(j+1)%nnr,(j+1)%nnr+nnr,j+nnr))
+        ob=mesh(prefix,rv,rf,mat)
+        for face in ob.data.polygons:
+            if len(face.vertices)>4:face.use_smooth=False
+        ob['mounting_surface']='IvoryRoundedFrontFender'
 
 # Rear lamp and cap are surface-bound to the new curved tail; no external yellow block.
 remove_matching(['TailLamp'])

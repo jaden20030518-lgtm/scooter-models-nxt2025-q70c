@@ -16,12 +16,12 @@
     9.530343231745064e-05
   ],
   "bounds_max_m": [
-    0.7401812672615051,
+    0.7329046726226807,
     0.3799999952316284,
     1.2050000429153442
   ],
-  "mesh_parts": 361,
-  "evaluated_faces": 567035,
+  "mesh_parts": 360,
+  "evaluated_faces": 558171,
   "all_vertices_finite": true,
   "all_parts_parented": true,
   "principal_surface_edges": {
@@ -32,5 +32,5 @@
   },
   "limits": "This check validates geometry integrity and retained landmarks; visual fidelity is assessed in separate renders.",
   "glb_roundtrip_max_bound_error_m": 0.0,
-  "glb_bytes": 23065340
+  "glb_bytes": 22574800
 }

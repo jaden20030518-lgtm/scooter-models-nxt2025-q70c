@@ -10,6 +10,11 @@
     "sha256": "b467b87cace093585b510d24da158510bd21c1dee54a56e73fce1333fa6d92d7"
   },
   {
+    "file": "CHANGELOG.md",
+    "bytes": 841,
+    "sha256": "3c236ba891f7067703623cb71b86fc74de7e417af6b03830ef8d157e0b33509d"
+  },
+  {
     "file": "NIU_NXT_Ultra_2025/NIU_NXT_2025_Refined.blend",
     "bytes": 4190351,
     "sha256": "a5df7782cc476069b7dfca8bef3baedff326bf0da9b365b2f0f1a915fa9055da"
@@ -146,43 +151,43 @@
   },
   {
     "file": "Ninebot_Q70C/Ninebot_Q70C_Refined.blend",
-    "bytes": 2800424,
-    "sha256": "3e38adf731582ce638caf43febba3ce2ed354a76b42ea52f4c8486208795702b"
+    "bytes": 2817896,
+    "sha256": "19e3465410903ab7ae030c9bb8262f8b918a872bd1e0a2ae16fbb979e7d83207"
   },
   {
     "file": "Ninebot_Q70C/Ninebot_Q70C_Refined.glb",
-    "bytes": 23065340,
-    "sha256": "14970b0e1142b721e8aa9b01711fd9fbe024517a93d606a7850bf5dbc9b4c2f5"
+    "bytes": 22574800,
+    "sha256": "fd01f98e790274c1b3b601d6a0faed11bd1342f966805f589cca60179ae1418b"
   },
   {
     "file": "Ninebot_Q70C/Q70C_Product_Studio.blend",
-    "bytes": 2799300,
-    "sha256": "273e1c763966cbb7a5c94d7c299d854aa00e30da42126a35740c702027da573b"
+    "bytes": 2807930,
+    "sha256": "2be56db3e8d5105f695cd3694b3613a2580ae3a967311a71c25bd5ced50a4f2f"
   },
   {
     "file": "Ninebot_Q70C/Q70C_Refined_Cockpit_Preview.png",
-    "bytes": 1716813,
-    "sha256": "cc79edab17aca3404f4804e66e69bce27edc4f0799c2d8c111f6e99ec1f06a55"
+    "bytes": 760949,
+    "sha256": "df31612f17dafbc840b8a5c2e785747e2f3f42c6224534c4570358a86a21836d"
   },
   {
     "file": "Ninebot_Q70C/Q70C_Refined_Hero_Preview.png",
-    "bytes": 1510152,
-    "sha256": "939bb0104df10542a61dde07a52f13d7f59a599d7374f352356ecee1ba8186a6"
+    "bytes": 650710,
+    "sha256": "7a4e2f2e257b548417c4efe56eaafab4893251b450b8d186a586b32f6d458951"
   },
   {
     "file": "Ninebot_Q70C/Q70C_Refined_OpenSeat_Preview.png",
-    "bytes": 1892876,
-    "sha256": "6a35da335fd3ac25fc0200b0c5251c96bc746ca28f746611be4efde754a1cd0d"
+    "bytes": 779995,
+    "sha256": "5e2289512c22eea753a64d6c78a89ceb71d5f31395028584c9824923c7189dff"
   },
   {
     "file": "Ninebot_Q70C/Q70C_Refined_Rear_Preview.png",
-    "bytes": 1753941,
-    "sha256": "8b8ccb6a29f09bfb90a742c865dd057f3e83ef2721d49e2e20466a614ff7558b"
+    "bytes": 768411,
+    "sha256": "bcb5eba89b3b0c624f9fa408b3cb96e8338f1b63e169e60c78324c1df8753370"
   },
   {
     "file": "Ninebot_Q70C/Q70C_Refined_Side_Preview.png",
-    "bytes": 1184459,
-    "sha256": "55bbb226bbf051de0b12aeaf5daeb0e0a8d9437cff5162e3815b63bed263f15a"
+    "bytes": 680433,
+    "sha256": "22f08b01d83a8f130112557cf1c7b2904356a439bc66c7d7384ece5099b2a2d0"
   },
   {
     "file": "Ninebot_Q70C/Q70C_refined_validation.json",
@@ -190,34 +195,44 @@
     "sha256": "7dc8a44025d2e2d6633af769068b10d3f7855585904bde7ea000f4de413743bd"
   },
   {
+    "file": "Ninebot_Q70C/Q70C_座垫与挡泥板修正.jpg",
+    "bytes": 332184,
+    "sha256": "11eaf7217e8bfdb0aef230b9ff41d354e19c0f4966ba62072939072f3192dbee"
+  },
+  {
     "file": "Ninebot_Q70C/README_实拍重建与打开坐垫.md",
-    "bytes": 2557,
-    "sha256": "860c2acbf9f5ffca304bfd5b95bbafd0706f7a99e59f979e55678ec5cb4f88df"
+    "bytes": 2993,
+    "sha256": "f4c3360de4ddc92cbe199cb65f75967cbc09adb86a2c13130f14cbec4c61e154"
   },
   {
     "file": "Ninebot_Q70C/build_q70_refined.py",
-    "bytes": 62954,
-    "sha256": "6e34d5ca9de26442b42e1d631f967a7a13f62704be5ef5dd867a1bef58df8fa1"
+    "bytes": 65591,
+    "sha256": "c9a0e84e79cb7bc1029b6345db96677733a26f456b4bb0be1433d698a10e51c2"
   },
   {
     "file": "Ninebot_Q70C/independent_validation.json",
     "bytes": 920,
-    "sha256": "2b3b863dc0e3bc20b6554c7ecce8d58fb2ab706baead13792fe649f68f9af595"
+    "sha256": "9374e0a09f0151d67dde16f3891c23920dcc6622f06cf80fc2ab0322ad802d18"
   },
   {
     "file": "Ninebot_Q70C/native_refined_validation.json",
-    "bytes": 668,
-    "sha256": "b59b5ee713e54bd250c82101e1024151845fd931e3e866e3077852224a52225a"
+    "bytes": 669,
+    "sha256": "d2e2a0ba09c6df74fccd95975deb564b21d14a5760651a2b9463d0e9720fb3ca"
   },
   {
     "file": "Ninebot_Q70C/preview_visual_audit.json",
-    "bytes": 2047,
-    "sha256": "1f518bae708e231775e01e178fa113946e738c608d06981a7e20d9d3713c0b03"
+    "bytes": 1473,
+    "sha256": "7474dac09a32d629ecffa4551d06a30f5a7eca8478156ddd161cf3fd417f19ea"
+  },
+  {
+    "file": "Ninebot_Q70C/seat_fender_validation.json",
+    "bytes": 920,
+    "sha256": "aab15e0f7e9e2203ba411fd8ac218da6ad2883d2ec22dc53a0eee3b7db8e57f7"
   },
   {
     "file": "Ninebot_Q70C/surface_shading_fix_validation.json",
-    "bytes": 1281,
-    "sha256": "21dba3cb3580f0dadaec14f98b2d16456d99e9d3635cb819e8e9f94ff9ff5193"
+    "bytes": 1454,
+    "sha256": "5c2a385c5a4646ce80fe79261b715b909e0df1fb2945eb0cc85d37d7fcbf3356"
   },
   {
     "file": "Ninebot_Q70C/verify_native.py",
@@ -225,39 +240,54 @@
     "sha256": "f5cd6aefff2b2af60ad06c62e46edd6852557e1ca530df3e5e2352b685412c95"
   },
   {
+    "file": "Ninebot_Q70C/verify_seat_fender.py",
+    "bytes": 3139,
+    "sha256": "cf4bac83ce58bfb9dfd9e545900f4e35ecc46299e02e325550fd4d2c808f02f0"
+  },
+  {
+    "file": "Ninebot_Q70C/展示图/q70_cockpit.png",
+    "bytes": 4048348,
+    "sha256": "82d4de715e993d162f83f613c36b0005216a8ab14653e4b656ad00a9b2078c05"
+  },
+  {
     "file": "Ninebot_Q70C/展示图/q70_detail.png",
-    "bytes": 3933330,
-    "sha256": "49c3d10a9698fe11b1f2df110eddfebe3eec4727f250c223c0a0f6308d7c64cc"
+    "bytes": 3934004,
+    "sha256": "efdead80398e99c3792eee291284c2982d3ba5570c37964cde5b66b9169c53fb"
+  },
+  {
+    "file": "Ninebot_Q70C/展示图/q70_fender.png",
+    "bytes": 3777682,
+    "sha256": "3858b397ff4f30c0dc13ba3692f8c7d15b6f21a6d8d6aabd72ed085e4837b381"
   },
   {
     "file": "Ninebot_Q70C/展示图/q70_hero.png",
-    "bytes": 10943944,
-    "sha256": "13476ae5756a0caf68aa8f7b0b11986c53b47411bfcbbda90dd6a816b47567aa"
+    "bytes": 10923437,
+    "sha256": "72392950dd627c9e1307409d1e4211ce5b22185cb44e51fc2a30f0fa6310a96d"
   },
   {
     "file": "Ninebot_Q70C/展示图/q70_rear.png",
-    "bytes": 4011443,
-    "sha256": "d012bb8b29351dba0ec6031ccf1461ef4544cdc46a21f8f3f163524a8256fd20"
+    "bytes": 3995003,
+    "sha256": "b4a670cbe431e9abfa51efce41c885ee0ca8265c869712e2c26be87d3ab5f9d9"
   },
   {
     "file": "Ninebot_Q70C/展示图/q70_seat.png",
-    "bytes": 4102659,
-    "sha256": "f39d70f9deaa97f8c4c189105cbfa7e032910eaeda31be44611fa86a739299f3"
+    "bytes": 4101112,
+    "sha256": "062bf9cccca2ee6370954319732a48510847caddb63d02d5beadcc39a3dcd570"
   },
   {
     "file": "Ninebot_Q70C/展示图/q70_side.png",
-    "bytes": 3989921,
-    "sha256": "d8b23e9af2c0c3bb667a8121fb32fcf37570a7587d4faefd668d66d8e9f19af5"
+    "bytes": 3969562,
+    "sha256": "94534a984d0c832c257a7252ff25179e6a6d54afadb5670980576f9ae0f74b43"
   },
   {
     "file": "README.md",
-    "bytes": 3126,
-    "sha256": "30bf68c60a906f7931c35e7043fbe5342fd66aab7aadee3622d9957f81afeec7"
+    "bytes": 3274,
+    "sha256": "a828fbea10366b82398a4bb3a0ff7fcbc0b9dc70f5d8bf7119c576b60c1127c7"
   },
   {
     "file": "README_使用与变化.md",
-    "bytes": 4102,
-    "sha256": "b31262d1188a2f51e8f417eb527a46b24fe5538c9d69f8e258f410b944e1d0a2"
+    "bytes": 4284,
+    "sha256": "bb1dd4de0a40e27bd4d07bcc2ef354dee80109c97241ea008ac8b512c54fa294"
   },
   {
     "file": "niu_前后对比.jpg",
@@ -266,13 +296,13 @@
   },
   {
     "file": "q70_前后对比.jpg",
-    "bytes": 253690,
-    "sha256": "3625054de5e3904e2fc8a4cc09179044f33a5d3b02f70dfcaaaee4c37c145bdc"
+    "bytes": 253791,
+    "sha256": "aa81938c75d38c6cad8dc3812d92e09946e78a1e4177b2f7d00f4f1ccac55106"
   },
   {
     "file": "tools/render_views.py",
-    "bytes": 5410,
-    "sha256": "419f93d6e0c23b9b7b8ab850b6d5bc53c0d5a21efac99d80272ca6483ab72385"
+    "bytes": 5528,
+    "sha256": "4de539b770a416fb590e990c51ac6bd873f13312fb6e1db2d58aa8f669c207f0"
   },
   {
     "file": "tools/verify_and_export.py",
@@ -281,7 +311,7 @@
   },
   {
     "file": "两车优化预览.jpg",
-    "bytes": 262461,
-    "sha256": "b67f8b9554f61f1b4722d85605428570865511e2d7dca03af5d8e6fd28661521"
+    "bytes": 256843,
+    "sha256": "014c4636220f7cc5495137257da83bccbc0edbd71ea522cf14fe1f8305ca1399"
   }
 ]
